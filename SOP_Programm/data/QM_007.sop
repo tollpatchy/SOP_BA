@@ -1,0 +1,68 @@
+{
+  "txtTitel": "SOP for Cleaning of Drum Mixer",
+  "txtSOPNr": "QM_007",
+  "txtVersion": "00",
+  "txtInst": "Moon Pharmaceutical Germany",
+  "txtAbt": "QM",
+  "CName": "Suvi Saikonnen",
+  "CYear": 2018,
+  "CMonth": 11,
+  "CDay": 5,
+  "Ch1Name": "Dr. Maria Maurer (Leitung QM)",
+  "Ch1Year": 2018,
+  "Ch1Month": 11,
+  "Ch1Day": 12,
+  "Ch2Name": "Dr. Ning Pan (Leitung Labor)",
+  "Ch2Year": 2018,
+  "Ch2Month": 11,
+  "Ch2Day": 20,
+  "AppName": "Dr. Ning Pan (Leitung Labor)",
+  "AppYear": 2018,
+  "AppMonth": 11,
+  "AppDay": 20,
+  "RName": "Dr. Ulrich Bar (Geschäftsführung)",
+  "RYear": 2018,
+  "RMonth": 12,
+  "RDay": 3,
+  "TEinleitung": "To lay down the cleaning procedure for Drum mixer.\n\n",
+  "TZweck": "This SCP shall be applicable for Drum mixer in Blending area in Production department.\n\n",
+  "TGeltungsbereich": "HOD-Production\n\n",
+  "TVerantwortlichkeiten": "Execution: Operator\nChecking: Pharmacist and Above\n",
+  "TAbk": [
+    [
+      "SCP",
+      "Standard Cleaning Procedure"
+    ],
+    [
+      "IPA",
+      "Isopropyl Alcohol"
+    ]
+  ],
+  "TDef": [],
+  "TVerfahren": [
+    [
+      "SCP",
+      "Put “OFF” the electric supply.\nRemove the lid and butter fly valve assembly. Loose the bolt of baffle cone fitted inside the lid.\nWipe off residual powder by dry lint free cloth.\nWash with Potable water at least two times till all the residue is washed off. Use 2.5 % “Teepol” solution & scrub the parts if required.\nFinally rinse with purified water.\nIn case of blenders with mucon valve assembly dismantle the valve and wash with lint free cloth with the help of Potable water. Finally rinse with purified water and allow drying.\nWipe off all the parts with 70 % v/v solution of Isopropyl Alcohol (IPA) and allow drying.\nAffix “Cleaned” label and fill the “Equipment Log Book”.\nRe-cleaned if not used within 72 hours.\n\n"
+    ]
+  ],
+  "THistory": [],
+  "TIntern": [
+    "QM_001",
+    "QM_002"
+  ],
+  "TExtern": [
+    "User Manual, Drum Mixer"
+  ],
+  "TLgl": [
+    "ISO 9001"
+  ],
+  "TAnhang": [
+    "https://www.pharmaguideline.com/2012/02/sop-for-cleaning-procedure-for-drum.html"
+  ],
+  "LaEinl": false,
+  "LaZw": false,
+  "LaGe": false,
+  "LaVe": false,
+  "_id": null,
+  "TVerantwortlichkeit": "Execution: Operator\nChecking: Pharmacist and Above\n\n"
+}

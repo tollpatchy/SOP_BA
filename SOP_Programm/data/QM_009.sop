@@ -1,0 +1,102 @@
+{
+  "txtTitel": "Test SOP",
+  "txtSOPNr": "QM_009",
+  "txtVersion": "02",
+  "txtInst": "TH Köln",
+  "txtAbt": "Angewandte Naturwissenschaften",
+  "CName": "Dieter Schröder",
+  "CYear": "2019",
+  "CMonth": "4",
+  "CDay": "1",
+  "Ch1Name": "Dr. Maria Maurer (Leitung QM)",
+  "Ch1Year": "2019",
+  "Ch1Month": "4",
+  "Ch1Day": "8",
+  "Ch2Name": "Dr. Ning Pan (Leitung Labor)",
+  "Ch2Year": "2019",
+  "Ch2Month": "4",
+  "Ch2Day": "15",
+  "AppName": "Dr. Ning Pan (Leitung Labor)",
+  "AppYear": "2019",
+  "AppMonth": "4",
+  "AppDay": "15",
+  "RName": "Dr. Ulrich Bar (Geschäftsführung)",
+  "RYear": "2019",
+  "RMonth": "5",
+  "RDay": "2", 
+  "TEinleitung": "\\textbf{Lorem ipsum} dolor sit \\textless{}amet\\textgreater{}, consetetur \\textit{sadipscing} elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea $\\sim$takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est \\underline{Lorem ipsum dolor sit amet}.",
+  "TZweck": "\\begin{enumerate}\n\\item Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat\n\\item vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisim\n\\item Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat\n\\end{enumerate}",
+  "TGeltungsbereich": "\\begin{itemize}\n\\item Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat\n\\item vel illum dolore eu feugiat nulla facilisis\n\\end{itemize}",
+  "TVerantwortlichkeiten": "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.",
+  "TAbk": [
+    [
+      "AAA",
+      "ABCDEFG"
+    ],
+    [
+      "123",
+      "123456789"
+    ],
+    [
+      "BBB",
+      "HIJKLMN"
+    ],
+    [
+      "456",
+      "987654321"
+    ]
+  ],
+  "TDef": [
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+  ],
+  "TVerfahren": [
+    [
+      "HHHHH",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n"
+    ],
+    [
+      "OOOOOO",
+      "sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.\n"
+    ],
+    [
+      "UUUU",
+      "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.\n"
+    ],
+    [
+      "PPPPP",
+      "At vero eos et accusam et justo duo dolores et ea rebum.\n"
+    ]
+  ],
+  "THistory": [
+    [
+      "01",
+      "Lorem ipsum\n"
+    ],
+    [
+      "02",
+      "Nam liber tempor cum soluta nobis eleifend\n"
+    ]
+  ],
+  "TIntern": [
+    "Lorem ipsum dolor sit amet",
+    "At vero eos et accusam et justo duo dolores et ea rebum",
+    "Stet clita kasd gubergren"
+  ],
+  "TExtern": [
+    "no sea takimata sanctus est",
+    "Lorem ipsum dolor sit amet"
+  ],
+  "TLgl": [
+    "consetetur sadipscing elitr",
+    "sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
+  ],
+  "TAnhang": [
+    "Duis autem vel eum iriure",
+    "dolor in hendrerit in vulputate velit esse"
+  ],
+  "LaEinl": true,
+  "LaZw": true,
+  "LaGe": true,
+  "LaVe": true
+}

@@ -1,0 +1,70 @@
+{
+  "txtTitel": "Schreiben einer SOP",
+  "txtSOPNr": "G_001",
+  "txtVersion": "",
+  "txtInst": "Moon Pharmaceutical Germany",
+  "txtAbt": "QM",
+  "CName": "Lew Jaworski (MA HR)",
+  "CYear": "2019",
+  "CMonth": "10",
+  "CDay": "7",
+  "Ch1Name": "Dr. Maria Maurer (Leitung QM)",
+  "Ch1Year": "2019",
+  "Ch1Month": "10",
+  "Ch1Day": "8",
+  "Ch2Name": "Dr. Ning Pan (Leitung Labor)",
+  "Ch2Year": "2019",
+  "Ch2Month": "10",
+  "Ch2Day": "8",
+  "AppName": "Dr. Maria Maurer (Leitung QM)",
+  "AppYear": "2019",
+  "AppMonth": "10",
+  "AppDay": "8",
+  "RName": "Dr. Ulrich Bar (Geschäftsführung)",
+  "RYear": "2019",
+  "RMonth": "10",
+  "RDay": "10",
+  "LaEinl": false,
+  "LaZw": false,
+  "LaGe": false,
+  "LaVe": false,
+  "TEinleitung": "Zusammenfassung der SOP",
+  "TZweck": "Was soll mit der SOP erreicht werden?",
+  "TGeltungsbereich": "Für welche(n) Bereich(e) gilt die SOP?",
+  "TVerantwortlichkeiten": "Wer sind die zuständigen Personen? Wer darf was durchführen?",
+  "TAbk": [
+    [
+      "ngA",
+      "nicht-gängige Abkürzung"
+    ]
+  ],
+  "TDef": [
+    "Definition von (Fach)Begriffen und/oder Synonymen"
+  ],
+  "TVerfahren": [
+    [
+      "Schritt 1",
+      "Detaillierte Beschreibung der Prozessabläufe."
+    ]
+  ],
+  "THistory": [
+    [
+      "01",
+      "Was wurde nach der Initialversion von wem geändert?"
+    ]
+  ],
+  "TIntern": [
+    "z. B. weitere SOPs"
+  ],
+  "TExtern": [
+    "z. B. weiterführende Literatur"
+  ],
+  "TLgl": [
+    "Gesetze, Richtlinien etc."
+  ],
+  "TAnhang": [
+    "Formulare",
+    "Muster",
+    "Schulungsunterlagen"
+  ]
+}
