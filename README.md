@@ -13,7 +13,7 @@ Der PC benötigt eine aktive Verbinung zum Internet und **Docker** muss auf dem 
 	+ [windows](https://docs.docker.com/v17.09/docker-for-windows/install/)
 	+ [mac](https://docs.docker.com/v17.09/docker-for-mac/install/)
 
-+ Anleitung zur Installation der Community-Editionfür die gängigen Betriebssysteme in deutsch:
++ Anleitung zur Installation der Community-Edition für die gängigen Betriebssysteme in deutsch:
 	+  [heise.de](https://www.heise.de/ct/artikel/Docker-einrichten-unter-Linux-Windows-macOS-4309355.html)
 
 	
