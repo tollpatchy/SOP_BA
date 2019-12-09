@@ -298,6 +298,11 @@ class MainApplication():
         else:
             self.verfahren.set([])
         
+        if 'LaVer' in self.sopData.keys():
+            self.verfahren.setflag(self.sopData['LaVer'])
+        else:
+            self.verfahren.setflag(False)
+        
         if 'THistory' in self.sopData.keys():
             self.history.set(self.sopData['THistory'])
         else:
@@ -370,6 +375,7 @@ class MainApplication():
         self.sopData['TAbk'] = self.abkdef.getAbk()
         self.sopData['TDef'] = self.abkdef.getDef()
         self.sopData['TVerfahren'] = self.verfahren.get()
+        self.sopData['LaVer'] = self.verfahren.getflag()
         self.sopData['THistory'] = self.history.get()
         if len(self.sopData['THistory']) > 0:
             self.sopData['txtVersion'] = self.history.get()[-1][0]
@@ -478,6 +484,11 @@ class MainApplication():
                 temp_str = temp_str + 'N/A'
             nl = nl.replace('<TVerfahren>', temp_str)
             
+            if self.sopData['LaVer'] == True:
+                nl = nl.replace('<TVerfahren>', self.sopData['TVerfahren'].rstrip())
+            else:
+                nl = nl.replace('<TVerfahren>', self.strToLaTeX( self.sopData['TVerfahren']).rstrip() )
+           
             temp_str = '\\begin{table}[H]\n\\centering\n\\renewcommand{\\arraystretch}{1.5}\n\\begin{tabular}{p{2cm}p{9cm}}\n00 & init. Version\\\\'
             if len(self.sopData['THistory'])>0:    
                 for n in self.sopData['THistory']: #Element dieser Liste = Liste mit zwei Elementen ['', '']

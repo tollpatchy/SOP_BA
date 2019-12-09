@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from tkinter import Tk, INSERT, NW, N, Frame, Label, Button, Checkbutton, BooleanVar, INSERT, scrolledtext, END
+from tkinter import Tk, NW, N, Frame, Label, Button, Checkbutton, BooleanVar, INSERT, scrolledtext, END
 from tkinter.scrolledtext import ScrolledText
 
 

@@ -1,6 +1,7 @@
 FROM ubuntu
 
 ARG DEBIAN_FRONTEND=noninteractive
+ARG USER_ID
 
 RUN apt-get update && apt-get install -y \
     preview-latex-style \ 
@@ -14,7 +15,7 @@ RUN apt-get update && apt-get install -y \
 
 ENV LANG de_DE.UTF-8
 
-RUN useradd -d /home/sopautor -m -s /bin/bash sopautor
+RUN useradd -U -u ${USER_ID} -d /home/sopautor -m -s /bin/bash sopautor
 
 ADD [".", "/home/sopautor/"]
 
