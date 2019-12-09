@@ -11,7 +11,7 @@ SOPGUI ist ein Programm zur Erstellung und Bearbeitung von Standard Operating Pr
 
 | Anweisung               | Dockerbefehl                                                                                                                                                                                                                                                        | script                |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
-| Aufbau des Image       | docker build -t sopgui .                                                                                                                                                                                                                                            | build_docker_image.sh |
+| Aufbau des Image       | docker build --build-arg USER_ID=$(id -u ${USER}) -t sopgui .                                                                                                                                                                                                                                            | build_docker_image.sh |
 | Starten des Containers | docker run --rm -it -v "$(pwd)/output":/home/sopautor/output -v "$(pwd)/database":/home/sopautor/database -v"/etc/timezone":"/etc/timezone":ro -v"/etc/localtime":"/etc/localtime":ro --net=host --env="DISPLAY" -v "$HOME/.Xauthority:/root/.Xauthority:ro" sopgui | run_container.sh      |
 
 
