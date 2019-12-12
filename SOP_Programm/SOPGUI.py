@@ -2,7 +2,7 @@
 from tkinter import Tk, Frame, messagebox, ttk, END, NORMAL, DISABLED
 from datetime import date
 import json
-from subprocess import Popen, PIPE
+from subprocess import Popen, PIPE, STDOUT, DEVNULL
 import os
 from classes.Class_MyMenu import MyMenu
 from classes.Class_Titelseite import Titelseite
@@ -398,7 +398,7 @@ class MainApplication():
             OUTFILE = self.sopData['txtSOPNr'] + 'en' + '.tex' #Dateiname(Sprachausgabe des Formulars in englisch)
         
         #Ausgabe als pdf. Doppeltes Aufrufen nötig, damit Element wie Inhaltsverzeichnis oder LastPage aktuallisiert werden.
-        cmds = [['ls','-a'], ['pdflatex', OUTFILE], ['pdflatex', OUTFILE]]
+        cmds = [['pdflatex', OUTFILE], ['pdflatex', OUTFILE]]
         for e in helperfiles:
             cmds.append( ['rm', '-f', OUTFILE[:-3]+e] ) # entfernen von Hilfsdateien
         
@@ -478,17 +478,16 @@ class MainApplication():
             temp_str = ''
             if len(self.sopData['TVerfahren'])>0:
                 for n in self.sopData['TVerfahren']:
-                    temp_str = temp_str + '\\begin{description}\n\\item ' + self.strToLaTeX(n[0].rstrip()) + \
-                               '\n\\end{description}\n' + self.strToLaTeX(n[1].rstrip()) + '\\\\\n'
+                    if self.sopData['LaVer'] == True:
+                        temp_str = temp_str + '\\begin{description}\n\\item ' + self.strToLaTeX(n[0].rstrip()) + \
+                                   '\n\\end{description}\n' + n[1].rstrip() + '\\\\\n'
+                    else:
+                        temp_str = temp_str + '\\begin{description}\n\\item ' + self.strToLaTeX(n[0].rstrip()) + \
+                                   '\n\\end{description}\n' + self.strToLaTeX(n[1].rstrip()) + '\\\\\n'
             else:
                 temp_str = temp_str + 'N/A'
             nl = nl.replace('<TVerfahren>', temp_str)
-            
-            if self.sopData['LaVer'] == True:
-                nl = nl.replace('<TVerfahren>', self.sopData['TVerfahren'].rstrip())
-            else:
-                nl = nl.replace('<TVerfahren>', self.strToLaTeX( self.sopData['TVerfahren']).rstrip() )
-           
+  
             temp_str = '\\begin{table}[H]\n\\centering\n\\renewcommand{\\arraystretch}{1.5}\n\\begin{tabular}{p{2cm}p{9cm}}\n00 & init. Version\\\\'
             if len(self.sopData['THistory'])>0:    
                 for n in self.sopData['THistory']: #Element dieser Liste = Liste mit zwei Elementen ['', '']
@@ -546,7 +545,8 @@ class MainApplication():
                 if len(data[1])>0:
                     print('! error: ' + data[1].decode())
                 else:
-                    print(data[0].decode())
+                    #print(data[0].decode())
+                    pass
         
         ret = messagebox.askokcancel('Bekanntmachung! ', 'Ihre SOP wird als PDF exportiert!\nPDF öffnen?')
         if ret == True:
